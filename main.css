@@ -1,0 +1,115 @@
+body {
+	color: #8a8b8c;
+	font-family: arial, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	background-color: #f1f1f1;
+}
+
+div {
+	background-color: white;
+}
+
+html { overflow-y: scroll; }
+
+a:hover {
+	cursor: pointer;
+}
+
+.logo {
+	height: 40px; width: 120px;
+	vertical-align: middle;
+	margin-left: -15px;
+}
+
+.me {
+	padding-left: 350px;
+}
+
+#me {
+	width:35px;
+	height:35px;
+	border-radius: 100px;
+}
+
+#magnify {
+	height: 30px; width: 30px;
+	vertical-align: middle;
+}
+
+.search {
+    width: 550px;
+    padding: 5px;
+	padding-left: 16px;
+	border-radius: 2px;
+ 	box-shadow: 1px 1px 1px 1px #c5c5c5;
+ 	vertical-align: middle;
+ 	background-color: white;
+}
+
+.searchbar { 
+	width: 510px;
+	border:0px solid;
+	font-size: 16px;
+ }
+
+.search:focus {outline:0;}
+
+.hlinks:hover {
+	text-decoration:underline;
+	color: #4285f4;
+}
+
+.header {
+	margin: auto;
+	width: 100%;
+	color: #666770;
+    border-bottom: 1px solid #D6D6D6;
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
+
+.navigation {
+ 	display: inline;
+ 	position: relative;
+ 	padding-right: 30px;
+ 	float: left;
+}
+
+.video {
+	margin: 80px 0 0 100px;
+	float: left;
+	border-radius: 1px;
+ 	box-shadow: 0.5px 0.5px 0.5px 0.5px #c5c5c5;
+}
+
+.sidebar {
+	color: black;
+	padding: 10px;
+	margin: 80px 100px 0 0;
+	width: 480px;
+	float: right;
+	border-radius: 1px;
+ 	box-shadow: 0.5px 0.5px 0.5px 0.5px #c5c5c5;
+}
+
+.sidebar img {
+	height: 100px;
+	width:160px
+}
+
+.comments {
+	color: black;
+	padding: 5px;
+	width: 550px;
+	float: left;
+	margin: 10px 0 0 100px;
+	border-radius: 1px;
+ 	box-shadow: 0.5px 0.5px 0.5px 0.5px #c5c5c5;
+}
+
+.comments img {
+	height: 90px;
+	width: 540px;
+
